@@ -148,7 +148,8 @@ $count_link_list  =$new_link_list->LinkListLenth();
 $clear_link_list  =$new_link_list->Clear();
 $count_link_list  =$new_link_list->LinkListLenth();
 $get_link_list    =$new_link_list->GetLinkList();
-
+echo "我在使用git";
+exit();
 
 
 
