@@ -39,7 +39,7 @@ git 应用场景   ----刚刚commit的文件发现了错误（误删除），如
 git 应用场景   ----下载github上的代码
 git clone   github上的地址    从github上克隆代码
 
-git 应用场景   ---- 创建一个空的仓库并和本地仓库进行关联
+git 应用场景   ---- 创建一个空的仓库并和本地仓库进行关联 +++++打击的旧爱尖顶坡安静的搜票价跌破
 创建空仓库需要在github、gitlab的个人账户上进行创建。
 git remote add origin https://github.com/zhengqilunji/Algorithm.git  进行远程仓库关联
 git push -u origin master       把本地仓库分支master的内容推送到元仓库去
