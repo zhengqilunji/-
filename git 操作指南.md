@@ -1,9 +1,9 @@
 ###### git 应用场景   ----创建git用户
-git config --local user.name '史青'
-git config --local user.email '475576181@qq.com'
+git config --local user.name '姓名'
+git config --local user.email '邮箱'
 
 ###### git 应用场景   -----ssh生产公钥 
-$ ssh-keygen -t rsa -C "475576181@qq.com"
+$ ssh-keygen -t rsa -C "邮箱"
 一直按回车、如果要输入密码，最好输入个
 继续按回车
 最后有个生成秘钥的地址  
@@ -39,7 +39,7 @@ git clone   github上的地址    从github上克隆代码
 
 ###### git 应用场景   ---- 创建一个空的仓库并和本地仓库进行关联，并提交代码
 创建空仓库需要在github、gitlab的个人账户上进行创建。
-git remote add origin https://github.com/zhengqilunji/Algorithm.git  进行远程仓库关联
+git remote add origin https://github.com/######/Algorithm.git  进行远程仓库关联
 git push -u origin master       把本地仓库分支master的内容推送到元仓库去 （首次输入会输入远程仓库的账号密码）
 第二次后就不用再使用 -u 参数了
 git push origin master
